@@ -1,0 +1,39 @@
+p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.box{
+    max-width:1200px;
+    max-height: 1300px;
+    margin: 0 auto;
+}
+.main-dica-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-dica-box > img{
+    width: 100%;
+}
+.main-destaque-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-content-destaque-box{
+    max-width: 600px;
+    text-align: center;
+}
+.main-content-destaque-box > img{
+    width: 424px;
+    height: 282px;
+}
+.main-content-destaque-box > p{
+    text-align: center;
+}

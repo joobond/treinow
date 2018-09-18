@@ -21,7 +21,7 @@ header{
     box-sizing: border-box;
     margin-top:110px;
 }
-.menu > ul{
+.menu > .box > ul{
     list-style: none;
     display: flex;
 }
@@ -33,9 +33,4 @@ header{
 }
 .navbar-link:hover{
     text-decoration: underline;
-}
-.teste{
-    display: flex;
-    flex-direction: row;
-    
 }
