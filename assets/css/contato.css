@@ -1,0 +1,43 @@
+.contato-formulario > h1{
+    margin-top:50px;
+    text-align: center;
+}
+.contato-formulario{
+    text-transform: uppercase;
+    margin: 0;
+}
+.contato-formulario > form{
+    display: flex;
+    flex-direction: column;
+}
+.contato-campo{
+    margin-top: 15px;
+    font-size: 30px;
+    display: block;
+}
+.contato-campo > label{
+    margin-right: 50px;
+}
+.contato-input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #78BC61;
+    color: #78BC61;
+    font-size: 28px;
+    text-align: center;
+    resize: none;
+    font-family: 'Baloo Tammudu', cursive;
+}
+
+.contato-botao{
+    width: 100%;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border:0;
+    background-color: #78BC61;
+    font-size: 30px;
+    font-family: 'Baloo Tammudu', cursive;
+    cursor: pointer;
+}

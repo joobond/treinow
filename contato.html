@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/dicas.css">
-    <title>Dicas - Treinow</title>
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <title>Treinow - O portal da saúde!</title>
 </head>
 
 <body>
@@ -46,18 +46,31 @@
     <!-- Fim do header  -->
     <!-- Começo do Main  -->
     <div>
-        <div class="box">
-            <h1>Dicas</h1>
-            <div class="dicas-box">
-                <a href="dicas/dica1.html">
-                    <img src="assets/img/exercicio.jpg" alt="Imagem de um atleta com uma barra com pesos em suas extremidades. O atleta está segurando a barra e com os joelhos flexionados.">
-                    <div class="dicas-modelo">
-                        <h2>Dica 1</h2>
-                        <p>Para que a prática de alguns exercícios possa ser levada ao extremo, assim, aumento os ganhos de massa magra, é necessária a execução correta do movimento. Clique na imagem para ver a nossa dica para você sobre como executar esse exercício da forma correta.</p>
-                    </div>
-                </a>
-            </div>
+        <div class="contato-formulario">
+            <h1>Entre em contato conosco!</h1>
+            <form action="#" method="post">
+                <div class="contato-campo">
+                    <label for="nome">nome</label>
+                    <input placeholder="Digite aqui seu nome..." class="contato-input" type="text" name="nome" id="nome">
+                </div>
+                <div class="contato-campo">
+                    <label for="email">e-mail</label>
+                    <input placeholder="Digite aqui seu e-mail..." class="contato-input" type="email" name="email" id="email">
+                </div>
+                <div class="contato-campo">
+                    <label for="idade">idade</label>
+                    <input placeholder="Digite aqui a sua idade..." class="contato-input" type="text" name="idade" id="idade">
+                </div>
+                <div class="contato-campo">
+                    <label for="mensagem">mensagem</label>
+                    <textarea placeholder="Digite aqui sua mensagem que responderemos o quanto antes..." class="contato-input" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button class="contato-botao" type="submit">enviar</button>
+                </div>
+            </form>
         </div>
+        
     </div>
     <!-- Fim do Main  -->
     <!-- Começo do Footer  -->

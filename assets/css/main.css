@@ -10,7 +10,6 @@ h2,h1{
 .box{
     max-width:1200px;
     max-height: 2000px;
-    margin: 0 auto;
 }
 .main-dica-box{
     margin-top: 10px;
@@ -24,7 +23,7 @@ h2,h1{
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .main-content-destaque-box{
     max-width: 600px;
