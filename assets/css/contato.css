@@ -28,7 +28,8 @@
     text-align: center;
     resize: none;
     font-family: 'Baloo Tammudu', cursive;
-}
+    outline-color: rgba(120, 188, 97, 0.514);
+    }
 
 .contato-botao{
     width: 100%;

@@ -1,6 +1,7 @@
 .dicas-box{
     max-height: 200px;
     max-width: 1200px;
+    margin-bottom: 50px;
 }
 .dicas-box > a > img{
     width: 250px;
@@ -14,6 +15,11 @@
     color: #252323;
     font-family: 'Dosis', sans-serif;
     padding-top: 0px;
+    margin-top: 0;
+}
+.dicas-modelo > h2{
+    padding: 0px;
+    margin: 0;
 }
 
 .dicas-box > a{
