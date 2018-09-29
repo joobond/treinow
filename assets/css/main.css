@@ -32,6 +32,8 @@ h2,h1{
 .main-content-destaque-box > img{
     width: 424px;
     height: 282px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .main-content-destaque-box > p{
     text-align: center;
