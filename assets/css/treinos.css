@@ -27,7 +27,8 @@
     margin-top: 0;
 }
 .treinos-modelo > h2{
-    padding: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     margin: 0;
 }
 .treino-conteudo > img{

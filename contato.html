@@ -12,79 +12,96 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <title>Treinow - O portal da saúde!</title>
 </head>
 
 <body>
     <!-- Começo do header  -->
     <header>
-        <div>
-            <img src="assets/img/logo.png" alt="A logo marca da página é a palavra 'Treinow' com dois bíceps, um de cada lado, ambos na cor preta"
-                class="logo">
-        </div>
-        <!-- Começo do Navbar -->
-        <nav class="menu">
-            <div class="box">
-                <ul>
-                    <li>
-                        <a href="index.html" class="navbar-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="treinos.html" class="navbar-link">Treinos</a>
-                    </li>
-                    <li>
-                        <a href="dicas.html" class="navbar-link">Dicas</a>
-                    </li>
-                    <li>
-                        <a href="contato.html" class="navbar-link">Contato</a>
-                    </li>
-                </ul>
+        <div class="header-box">
+            <div>
+                <img src="assets/img/logo.png" alt="A logo marca da página é a palavra 'Treinow' com dois bíceps, um de cada lado, ambos na cor preta"
+                    class="logo">
             </div>
-        </nav>
-        <!-- Fim do Navbar -->
+            <!-- Começo do Navbar -->
+            <nav class="menu">
+                <div class="box">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="navbar-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="treinos.html" class="navbar-link">Treinos</a>
+                        </li>
+                        <li>
+                            <a href="dicas.html" class="navbar-link">Dicas</a>
+                        </li>
+                        <li>
+                            <a href="contato.html" class="navbar-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Fim do Navbar -->
+        </div>
     </header>
     <!-- Fim do header  -->
     <!-- Começo do Main  -->
-    <div>
-        <div class="contato-formulario">
-            <h1>Entre em contato conosco!</h1>
-            <form action="#" method="post">
-                <div class="contato-campo">
-                    <label for="nome">nome</label>
-                    <input placeholder="Digite aqui seu nome..." class="contato-input" type="text" name="nome" id="nome">
-                </div>
-                <div class="contato-campo">
-                    <label for="email">e-mail</label>
-                    <input placeholder="Digite aqui seu e-mail..." class="contato-input" type="email" name="email" id="email">
-                </div>
-                <div class="contato-campo">
-                    <label for="idade">idade</label>
-                    <input placeholder="Digite aqui a sua idade..." class="contato-input" type="text" name="idade" id="idade">
-                </div>
-                <div class="contato-campo">
-                    <label for="mensagem">mensagem</label>
-                    <textarea placeholder="Digite aqui sua mensagem que responderemos o quanto antes..." class="contato-input" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <button class="contato-botao" type="submit">enviar</button>
-                </div>
-            </form>
+    <main>
+        <div class="box">
+            <div class="contato-formulario">
+                <h1>Entre em contato conosco!</h1>
+                <form action="#" method="post">
+                    <div class="contato-campo">
+                        <label for="nome">nome</label>
+                        <input placeholder="Digite aqui seu nome..." class="contato-input" type="text" name="nome" id="nome" required="required">
+                    </div>
+                    <div class="contato-campo">
+                        <label for="email">e-mail</label>
+                        <input placeholder="Digite aqui seu e-mail..." class="contato-input" type="email" name="email" id="email" required="required">
+                    </div>
+                    <div class="contato-campo">
+                        <label for="idade">idade</label>
+                        <input placeholder="Digite aqui a sua idade..." class="contato-input" type="text" name="idade" id="idade" required="required">
+                    </div>
+                    <div class="contato-campo">
+                        <label for="mensagem">mensagem</label>
+                        <textarea placeholder="Digite aqui sua mensagem que responderemos o quanto antes..." class="contato-input" name="mensagem"
+                            id="mensagem" cols="30" rows="10" required="required"></textarea>
+                    </div>
+                    <div>
+                        <button class="contato-botao" type="submit">enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        
-    </div>
+    </main>
     <!-- Fim do Main  -->
     <!-- Começo do Footer  -->
     <div>
         <footer>
-            <div class="box">
-                <p class="footer-texto"> Mídias Sociais</p>
-                <a href="#"><img src="assets/img/icons/instagram.svg" alt="Ícone do Instagram do Treinow" class="footer-imagem"></a>
-                <a href="#"><img src="assets/img/icons/twitter.svg" alt="Ícone do Twitter do Treinow" class="footer-imagem"></a>
-                <a href="#"><img src="assets/img/icons/facebook.svg" alt="Ícone do Facebook do Treinow" class="footer-imagem"></a>
+            <div class="footer-div">
+                <div>
+                    <p class="footer-texto"> Mídias Sociais</p>
+                    <a href="#">
+                        <img src="assets/img/icons/instagram.svg" alt="Ícone do Instagram do Treinow" class="footer-imagem">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/icons/twitter.svg" alt="Ícone do Twitter do Treinow" class="footer-imagem">
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/icons/facebook.svg" alt="Ícone do Facebook do Treinow" class="footer-imagem">
+                    </a>
+                </div>
+                <div class="footer-telefone">
+                    <img src="assets/img/icons/phone.svg" alt="Ícone de Telefone">
+                    <p>(69) 9 9201-9585</p>
+                </div>
             </div>
         </footer>
     </div>
     <!-- Fim do Footer  -->
 </body>
-    
+
 </html>

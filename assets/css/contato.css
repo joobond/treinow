@@ -4,7 +4,6 @@
 }
 .contato-formulario{
     text-transform: uppercase;
-    margin: 0;
 }
 .contato-formulario > form{
     display: flex;
@@ -19,6 +18,8 @@
     margin-right: 50px;
 }
 .contato-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     border-radius: 5px;
     border: none;
@@ -29,11 +30,10 @@
     resize: none;
     font-family: 'Baloo Tammudu', cursive;
     outline-color: rgba(120, 188, 97, 0.514);
-    }
-
+}
 .contato-botao{
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     text-transform: uppercase;
     border-radius: 10px;
     border:0;

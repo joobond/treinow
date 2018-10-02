@@ -5,6 +5,7 @@ footer{
     margin-top: 200px;
     padding-top: 10px;
     padding-bottom: 50px;
+    height: 176px;
 }
 
 .footer-texto{
@@ -21,4 +22,26 @@ footer{
 }
 footer > a{
     cursor: pointer;
+    text-decoration: none;
+}
+.footer-telefone{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-telefone > img{
+    width: 33px;
+    height: 33px;
+}
+.footer-telefone >p {
+    font-weight: bold;
+}
+.footer-div{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

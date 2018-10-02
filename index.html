@@ -11,40 +11,43 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <title>Treinow - O portal da saúde!</title>
 </head>
 
 <body>
     <!-- Começo do header  -->
     <header>
-        <div>
-            <img src="assets/img/logo.png" alt="A logo marca da página é a palavra 'Treinow' com dois bíceps, um de cada lado, ambos na cor preta"
-                class="logo">
+        <div class="header-box">
+                <div>
+                        <img src="assets/img/logo.png" alt="A logo marca da página é a palavra 'Treinow' com dois bíceps, um de cada lado, ambos na cor preta"
+                            class="logo">
+                    </div>
+                    <!-- Começo do Navbar -->
+                    <nav class="menu">
+                        <div class="box">
+                            <ul>
+                                <li>
+                                    <a href="index.html" class="navbar-link">Home</a>
+                                </li>
+                                <li>
+                                    <a href="treinos.html" class="navbar-link">Treinos</a>
+                                </li>
+                                <li>
+                                    <a href="dicas.html" class="navbar-link">Dicas</a>
+                                </li>
+                                <li>
+                                    <a href="contato.html" class="navbar-link">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Fim do Navbar -->
         </div>
-        <!-- Começo do Navbar -->
-        <nav class="menu">
-            <div class="box">
-                <ul>
-                    <li>
-                        <a href="index.html" class="navbar-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="treinos.html" class="navbar-link">Treinos</a>
-                    </li>
-                    <li>
-                        <a href="dicas.html" class="navbar-link">Dicas</a>
-                    </li>
-                    <li>
-                        <a href="contato.html" class="navbar-link">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Fim do Navbar -->
     </header>
     <!-- Fim do header  -->
     <!-- Começo do Main  -->
-    <div>
+    <main>
         <div class="box">
             <!-- Dica do Mês -->
             <div class="main-dica-box">
@@ -67,19 +70,31 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
     <!-- Fim do Main  -->
     <!-- Começo do Footer  -->
     <div>
-        <footer>
-            <div class="box">
-                <p class="footer-texto"> Mídias Sociais</p>
-                <a href="#"><img src="assets/img/icons/instagram.svg" alt="Ícone do Instagram do Treinow" class="footer-imagem"></a>
-                <a href="#"><img src="assets/img/icons/twitter.svg" alt="Ícone do Twitter do Treinow" class="footer-imagem"></a>
-                <a href="#"><img src="assets/img/icons/facebook.svg" alt="Ícone do Facebook do Treinow" class="footer-imagem"></a>
+            <footer>
+                <div class="footer-div">
+                    <div>
+                        <p class="footer-texto"> Mídias Sociais</p>
+                        <a href="#">
+                            <img src="assets/img/icons/instagram.svg" alt="Ícone do Instagram do Treinow" class="footer-imagem">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/twitter.svg" alt="Ícone do Twitter do Treinow" class="footer-imagem">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/icons/facebook.svg" alt="Ícone do Facebook do Treinow" class="footer-imagem">
+                        </a>
+                    </div>
+                <div class="footer-telefone">
+                    <img src="assets/img/icons/phone.svg" alt="Ícone de Telefone">
+                    <p>(69) 9 9201-9585</p>
+                </div>
             </div>
-        </footer>
-    </div>
+            </footer>
+        </div>
     <!-- Fim do Footer  -->
 </body>
     
