@@ -4,7 +4,15 @@ p{
     margin-bottom: 10px;
 }
 main{
-    min-height: calc(100vh - 352px;)
+    min-height: calc(100vh - 352px);
+}
+.em-desenvolvimento{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+.em-desenvolvimento > img{
+    opacity: 0.8;
 }
 h2,h1{
     font-size: 45px;
